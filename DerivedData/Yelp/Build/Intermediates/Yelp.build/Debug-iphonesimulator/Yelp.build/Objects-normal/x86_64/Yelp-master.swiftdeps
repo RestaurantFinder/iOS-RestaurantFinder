@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "08229f012cc9b104de0f66a4218dc19e"
+build_time: [517114530, 758676000]
+inputs:
+  "/Users/ruchit/Downloads/ios_yelp_swift-master/Yelp/BusinessesViewController.swift": [517114530, 0]
+  "/Users/ruchit/Downloads/ios_yelp_swift-master/Yelp/Business.swift": [507617030, 0]
+  "/Users/ruchit/Downloads/ios_yelp_swift-master/Yelp/YelpClient.swift": [507617030, 0]
+  "/Users/ruchit/Downloads/ios_yelp_swift-master/Yelp/AppDelegate.swift": [507617030, 0]
