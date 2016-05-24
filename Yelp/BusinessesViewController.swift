@@ -4,6 +4,8 @@ import UIKit
 
 class BusinessesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
+    
+    
     @IBOutlet var tableView : UITableView!
     
     var businesses: [Business] = NSArray() as! [Business]
@@ -69,9 +71,16 @@ class BusinessesViewController: UIViewController, UITableViewDelegate, UITableVi
         let cell: RestuarantSearchCell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as! RestuarantSearchCell
         
         let cellData: Business = self.businesses[indexPath.row]
+        
+
+        
+        
+        
         cell.restImage?.setImageWithURL(cellData.imageURL!)
         cell.restName?.text = cellData.name!
-        
+        cell.addressName1?.text = cellData.address!
+        cell.addressName2?.text = cellData.address2!
+//        
         return cell
     }
     

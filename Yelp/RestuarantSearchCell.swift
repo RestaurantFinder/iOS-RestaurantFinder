@@ -12,7 +12,13 @@ class RestuarantSearchCell: UITableViewCell {
     
     @IBOutlet var restImage : UIImageView!;
     @IBOutlet var restName : UILabel!;
-    @IBOutlet var addressName : UILabel!;
-    @IBOutlet var rating : UILabel!;
+    
+    @IBOutlet var addressName1 : UILabel!;
+    @IBOutlet var addressName2: UILabel!
+
+    @IBOutlet var rating: CosmosView!
+    
+    
+    
 
 }
