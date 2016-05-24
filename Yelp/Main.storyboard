@@ -25,6 +25,9 @@
                                     <constraint firstAttribute="width" secondItem="qes-Rg-EcD" secondAttribute="height" multiplier="1:1" constant="3" id="kbL-yD-oCt"/>
                                 </constraints>
                                 <state key="normal" title="Location" image="location pin.png"/>
+                                <connections>
+                                    <action selector="pickPlace:" destination="2xI-yr-O5N" eventType="touchUpInside" id="yMe-OV-Sgm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jy-5i-hGo">
                                 <rect key="frame" x="12" y="65" width="576" height="35"/>
